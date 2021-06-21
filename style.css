@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding:0px;
+
+}
+.navbar{
+	width: 100%;
+	background-color: crimson;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.navbarn .max-width{
+	width: 1300px;
+}
+.menu{
+    padding: 10px;
+}
+.menu li {
+	display: inline-block;
+	text-align: :center;
+	cursor: pointer;
+	padding: 10px;
+
+}
+.menu li a{
+	
+padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+}
+.menu li a:hover{
+	color: #000;
+}
+
+.child-center{
+	width: 50%;
+	height: 480px;
+	background-color: pink;
+	margin: auto 10px;
+	display: flex;
+	padding: 10px;
+
+}
+.info1{
+	width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.info21{
+    height: 30.5%;
+    background-color: white;
+    margin: 10px;
+}
+.info2{
+	width: 50%;
+	height: 100%;
+	background-color: black;
+	margin-left: 10px;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	align-content: 	center;	
+	margin: 20px auto;
+
+
+}
+.logo a{
+	color: 	#fff;
+	font-size:40px;
+	font-weight:500;
+}
+.logo a span{
+	color: 	#000;
+}
+
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display:inline-block;	
+}
+.menu li a{
+
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+
+}
+.menu li a:hover{
+	color: black;
+}
